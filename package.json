@@ -3,14 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "native-base": "^2.3.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-native-easy-grid": "git+https://github.com/cpunion/react-native-easy-grid.git",
+    "react-native-web": "^0.1.12",
     "react-scripts": "1.0.15"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "monkey-react-scripts start",
+    "build": "monkey-react-scripts build",
+    "test": "monkey-react-scripts test --env=jsdom",
+    "eject": "monkey-react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "monkey-react-scripts": "^0.1.0"
+  },
+  "resolutions": {
+    "react-native-easy-grid": "git+https://github.com/cpunion/react-native-easy-grid.git"
   }
 }
